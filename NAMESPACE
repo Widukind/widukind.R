@@ -1,3 +1,7 @@
 import(rjson)
 
+# From rest.R
 export(list.categories, get.category, list.series, get.series)
+
+# From ts.R
+export(get.series.as.ts)
