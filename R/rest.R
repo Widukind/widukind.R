@@ -4,10 +4,16 @@ list.categories <- function(db, server = default.server)
   fromJSON(file=paste("http:/", server, db, "categories", sep = "/"))
 
 get.category <- function(db, category.id, server = default.server)
-  fromJSON(file=paste("http:/", server, db, "categories", category.id, sep = "/"))
+  {
+    x <- fromJSON(file=paste("http:/", server, db, "categories", category.id, sep = "/"))
+    x[[1]]
+  }
 
 list.series <- function(db, category.id, server = default.server)
   fromJSON(file=paste("http:/", server, db, "categories", category.id, "series", sep = "/"))
 
 get.series <- function(db, series.id, server = default.server)
-  fromJSON(file=paste("http:/", server, db, "series", series.id, sep = "/"))
+  {
+    x <- fromJSON(file=paste("http:/", server, db, "series", series.id, sep = "/"))
+    x[[1]]
+  }
