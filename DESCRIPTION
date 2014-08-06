@@ -1,0 +1,10 @@
+Package: Widukind
+Version: 0.1-0
+Title: Widukind connector
+Description: Fetches data from a Widukind server (see https://github.com/Widukind).
+Author: Sébastien Villemot
+Maintainer: Sébastien Villemot <sebastien@dynare.org>
+License: GPL (>= 3)
+Encoding: UTF-8
+URL: https://github.com/Widukind/RWidukind
+Depends: rjson
