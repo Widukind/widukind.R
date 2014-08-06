@@ -4,7 +4,11 @@ This package gives the possibility of downloading Widukind data into R.
 
 # Installation
 
-Clone the git repository and, from the upper-level directory, issue this
+First, you have to install the `rjson` package for R. Under Debian or Ubuntu,
+this can be done by installing the `r-cran-rjson` package. Otherwise, you can
+install it by issuing the following in R: `install.packages("rjson")`.
+
+Then, clone the git repository and, from the upper-level directory, issue this
 command in a shell:
 ```
 R CMD INSTALL RWidukind
