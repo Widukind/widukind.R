@@ -1,6 +1,10 @@
-# Widukind for R
+# DB.nomics for R
 
-This package gives the possibility of downloading Widukind data into R.
+This package gives the possibility of downloading DB.nomics series in R.
+
+**`DB.nomics <https://db.nomics.world/>`_ is a database of international macroeconomic data collected on public web servers of statistical offices worldwide.**
+
+*Please ask your questions to the `DB.nomics forum <https://forum.db.nomics.world/>`_.*
 
 # Installation
 
@@ -11,7 +15,7 @@ install it by issuing the following in R: `install.packages("rjson")`.
 Then, clone the git repository and, from the upper-level directory, issue this
 command in a shell:
 ```
-R CMD INSTALL RWidukind
+R CMD INSTALL dbnomics-connector.R
 ```
 
 This will install the package in some path accessible to R.
@@ -19,7 +23,7 @@ This will install the package in some path accessible to R.
 Then, in every session where you want to use the package, issue the following
 in R:
 ```
-library(Widukind)
+library(DBnomics)
 ```
 
 # Retrieving a series as a timeseries object

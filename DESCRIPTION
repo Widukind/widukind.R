@@ -1,10 +1,10 @@
-Package: Widukind
+Package: DBnomics
 Version: 0.1-0
-Title: Widukind connector
-Description: Fetches data from a Widukind server (see https://github.com/Widukind).
+Title: DB.nomics connector for R
+Description: Fetches series from a DB.nomics server (see https://git.nomics.world/dbnomics).
 Author: Sébastien Villemot
 Maintainer: Sébastien Villemot <sebastien@dynare.org>
 License: GPL (>= 3)
 Encoding: UTF-8
-URL: https://github.com/Widukind/RWidukind
+URL: https://git.nomics.world/dbnomics/dbnomics-connector.R
 Depends: rjson
